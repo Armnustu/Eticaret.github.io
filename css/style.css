@@ -1,0 +1,53 @@
+<style type="text/css">
+
+.menu , .menu ul {
+    width:302px;
+    margin:auto;
+    padding:5px;
+    list-style-type: none;
+    overflow:hidden;
+    border:1px solid #eee;
+}
+.menu li {
+    float:left;
+    position:relative;
+}
+.menu li img {
+    float:left;
+    margin: 5px 0 0 5px;
+    border:none;
+}
+.menu li a .name {
+    float:left;
+    width:166px;
+    margin:0 0 0 5px;
+    font-weight:bold;
+    font-size:0.7em;
+    cursor:pointer;
+}
+.menu li a:active, .menu li a:focus { 
+    outline:0;
+}
+.menu li a .description{
+    float:left;
+    width:161px;
+    margin:-5px 0 0 5px;
+    font-weight:normal;
+    font-size:0.7em;
+    cursor:pointer;
+}
+.menu li a:link, .menu li a:visited {
+    height:35px;
+    font-size:1em;
+    color:#000;
+    text-decoration:none;
+    line-height:20px;
+    border:1px solid #fff;
+    display:block;
+    font-weight:bold;
+}
+.menu li a:hover  {
+    background:#eee;
+}
+
+</style>
